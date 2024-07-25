@@ -1,0 +1,32 @@
+{
+  "name": "cypress-e2e-framework",
+  "version": "1.0.0",
+  "description": "E2E test automation framework for online shop built with Cypress and TypeScript that follows POM design pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandraPrzudzik/cypress-e2e-framework.git"
+  },
+  "author": "Aleksandra Przudzik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandraPrzudzik/cypress-e2e-framework/issues"
+  },
+  "homepage": "https://github.com/AleksandraPrzudzik/cypress-e2e-framework#readme",
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-on-fix": "^1.0.3",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "20.1.0",
+    "@cypress/browserify-preprocessor": "^3.0.2"
+  }
+}
