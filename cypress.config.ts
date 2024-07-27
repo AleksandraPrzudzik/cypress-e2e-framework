@@ -29,6 +29,7 @@ export default defineConfig({
   downloadsFolder: 'cypress/downloads',
   fixturesFolder: 'cypress/fixtures',
   screenshotsFolder: 'cypress/screenshots',
+  chromeWebSecurity: false,
 
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
